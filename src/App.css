@@ -1,0 +1,27 @@
+.app {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100svh;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  font-size: 25px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: rgb(255, 213, 136);
+  border: 3px solid black;
+  cursor: pointer;
+}
+
+button.restar {
+  background-color: rgb(149, 149, 255);
+  border: 3px solid rgb(59, 75, 245);
+}
